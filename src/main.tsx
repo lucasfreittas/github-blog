@@ -1,10 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+
+import { Home } from './Pages/Home'
+
+import { ThemeProvider } from 'styled-components'
+import GlobalStyle from './Styles/global';
+import { defaultTheme } from './Styles/Themes/default';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={defaultTheme}>
+      <GlobalStyle/>
+      <Home />
+    </ThemeProvider>
   </React.StrictMode>,
 )
