@@ -1,9 +1,17 @@
-import { HomeContainer } from './styles';
+import { HomeContainer, ContentContainer } from './styles';
+
+import { Header } from '../../Components/Header';
+import { Profile } from '../../Components/Profile';
+
 
 export function Home(){
     return(
         <HomeContainer>
-            <h1>Hello World!</h1>
+            <Header />
+
+            <ContentContainer>
+                <Profile />
+            </ContentContainer>
         </HomeContainer>
     )
 }
