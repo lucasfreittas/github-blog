@@ -4,6 +4,7 @@ export const HomeContainer = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 12.8rem;
 `;
 
 export const ContentContainer = styled.section`
