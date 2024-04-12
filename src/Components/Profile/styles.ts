@@ -7,6 +7,8 @@ export const ProfileContainer = styled.section`
     margin-top: -8rem;
     gap: 3.2rem;
     background-color: ${props => props.theme["gray-700"]};
+    border-radius: 1rem;
+    box-shadow: 0px 2px 28px rgba(0, 0, 0, 0.2);
 
     > img {
         width: 14.8rem;
