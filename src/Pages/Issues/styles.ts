@@ -4,7 +4,7 @@ export const IssueContainer = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 12.8rem
+    margin-bottom: 12.8rem;
 `;
 
 export const ContentContainer = styled.section`
@@ -26,7 +26,7 @@ export const InfoContainer = styled.div`
 export const NavContainer = styled.div`
     display: flex;
     justify-content: space-between;
-    > a, span {
+    a, span {
         display: flex;
         align-items: center;
         justify-content: center;
