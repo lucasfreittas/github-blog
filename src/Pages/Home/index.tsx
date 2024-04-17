@@ -55,6 +55,7 @@ export function Home(){
                        issueData.map(issue => (
                         <Post
                             key={issue.id}
+                            data={issue}
                         />
                        ))
                     )}

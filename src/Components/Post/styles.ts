@@ -22,11 +22,18 @@ export const TitleContainer = styled.div`
     gap: 1.6rem;
     margin-bottom: 2rem;
 
+  
+        
     > p{
         font-size: 2rem;
         line-height: 160%;
         font-weight: 700;
         color: ${props => props.theme.white};
+        display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* Número de linhas desejado */
+    overflow: hidden;
+    text-overflow: ellipsis;
     };
     > span{
         min-width: max-content;
